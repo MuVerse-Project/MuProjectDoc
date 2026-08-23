@@ -256,7 +256,7 @@ MuPacket Data 是由 MuPacket 实现者自行约定的结构
     // 环境名称
     name: string
     // 环境可执行文件位置
-    // 对于 Java 环境而言，应该对应 java.exe 文件
+    // 对于 Java 环境而言，应当对应 JAVA_HOME 的值
     path: string
 }
 ```
